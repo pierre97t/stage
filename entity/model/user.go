@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"dev.azure.com/cryptex/entity"
+	"stagemain/entity"
 )
 
 // User is the struc used to manage application's users

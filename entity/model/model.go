@@ -25,6 +25,7 @@ const (
 	TypeContact  = "contact"
 	TypeLead     = "lead"
 	TypeProspect = "prospect"
+	TypeAccount  = "account"
 )
 
 // Std contains standard properties
@@ -83,10 +84,7 @@ func (m *minStd) GetDate() time.Time {
 
 // GenerateID generates a random UUID V4
 func GenerateID() string {
-	if id, err := uuid.NewV4(); err == nil {
-		return id.String()
-	}
-	return ""
+	return uuid.NewV4().String()
 }
 
 // GenerateSTDParam sets record's created date and created by

@@ -3,8 +3,7 @@ package model
 import (
 	"encoding/json"
 	"fmt"
-
-	"dev.azure.com/cryptex/entity"
+	"stagemain/entity"
 )
 
 // address is the struct used to manage address data
